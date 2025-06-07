@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-colo:#e3e8e4;
+    --primary-color:#363636;
+    --main-font:"Playfair Display",serif;
+}
+/* nav section start */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+ul li{
+    display: inline;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 3rem;
+}
+
+ul li a{
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.btn-fill{
+    padding: 10px 30px;
+    background: var(--primary-color);
+    border: none;
+    border-radius: 100px;
+    color: #fff;
+
+}
+.btn-outline{
+    background: transparent;
+    border: none;
+    margin-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* nav section ends */
+
+/* Header section start */
+header{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.content-container{
+    margin-left: 6rem;
+}
+
+.main-headings{
+    font-size: 4rem;
+    font-family: var(--main-font);
+    color: #0000004f;
+    margin-bottom: 2rem;
+}
+.main-headings span{
+    color: #000;
+
+}
+
+.primary-headings{
+    max-width: 500px;
+    font-family: sans-serif;
+    line-height: 25px;
+    margin-bottom: 2rem;
+
+}
+.image-container{
+    width: 450px;
+    height: 450px;
+    background-color: var(--main-colo);
+    border-radius: 100%;
+    
+}
+
+.image-container img{
+    
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+/* Header section END */
+
+/* Popularity section start */
+ .popularity{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+ }
+
+.popularity div{
+    margin-right: 5rem;
+
+
+}
+.popularity div h1{
+    font-size: 3rem;
+    text-align: center;
+    color: #084c50dc;
+    font-family: var(--main-font);
+}
+.popularity div p{
+    color: #084c50bf;
+    font-family: sans-serif;
+}
